@@ -1904,6 +1904,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 143.51) (xy 121.92 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69e0d54b-0735-48e5-8264-c62cec2166ca")
+	)
+	(wire
+		(pts
 			(xy 92.71 73.66) (xy 92.71 74.93)
 		)
 		(stroke
@@ -1961,6 +1971,16 @@
 			(type default)
 		)
 		(uuid "ac31a696-7e03-4945-adb6-1dbd912b9391")
+	)
+	(wire
+		(pts
+			(xy 105.41 146.05) (xy 121.92 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b45784e7-6ab4-40da-b914-d6a927c05d4f")
 	)
 	(wire
 		(pts
@@ -3296,6 +3316,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "+3V3" input
+			(at 105.41 146.05 0)
+			(uuid "aff5f4bd-8c0c-4265-8399-67e553adc2b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+5V" input
+			(at 105.41 143.51 0)
+			(uuid "97dfff53-01e5-4643-a3af-64ec5b22cd74")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
