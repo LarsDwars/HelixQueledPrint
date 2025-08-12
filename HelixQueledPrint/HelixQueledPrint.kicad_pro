@@ -559,14 +559,32 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Beschrijving",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Referentie"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -628,6 +646,10 @@
     [
       "d0a2a03c-f7e4-4c8d-96d9-e0ad8b55bb56",
       "LedDriverWhite"
+    ],
+    [
+      "e400918e-d25b-4794-9d88-6dea36a81e43",
+      "PSU"
     ]
   ],
   "text_variables": {}
