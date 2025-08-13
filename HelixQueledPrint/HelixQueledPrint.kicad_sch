@@ -393,7 +393,7 @@
 			(symbol "LED_RGBW_8P_1_1"
 				(rectangle
 					(start -5.08 8.89)
-					(end 5.08 -8.255)
+					(end 5.08 -8.89)
 					(stroke
 						(width 0)
 						(type solid)
@@ -467,6 +467,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -11.43 90)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5254,6 +5272,16 @@
 	)
 	(wire
 		(pts
+			(xy 328.93 40.64) (xy 328.93 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eadb010-7960-4fe6-af05-f4d4e0b3a631")
+	)
+	(wire
+		(pts
 			(xy 125.73 77.47) (xy 107.95 77.47)
 		)
 		(stroke
@@ -6661,6 +6689,161 @@
 			(justify left bottom)
 		)
 		(uuid "edf72f2a-6dcc-4803-b6d5-dfec0854d640")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 52.2035 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "169b0ed7-0acd-4a67-b39e-a617c93926e4")
+		(property "Netclass" "RF"
+			(at 52.902 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -197.9865 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 101.6 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e0ad707-5255-4def-a29d-6de3e882b5d8")
+		(property "Netclass" "RF"
+			(at 102.2985 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -148.59 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 163.83 165.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3fd2177c-8776-4cb8-a8d5-74c842b5cbc4")
+		(property "Netclass" "USB"
+			(at 164.5285 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -87.63 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 50.8 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b3de4c8-7e3b-4b1b-a782-ff97fba49b6f")
+		(property "Netclass" "RF"
+			(at 51.4985 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -199.39 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 163.83 160.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9ea6dca-dc38-48f9-ae9e-5c461c44780c")
+		(property "Netclass" "USB"
+			(at 164.5285 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -87.63 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -10026,6 +10209,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 328.93 46.99 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9592901a-65b9-4f26-a2b9-04d52929c625")
+		(property "Reference" "#PWR033"
+			(at 328.93 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 328.93 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 328.93 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 328.93 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 328.93 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c64b324-abfe-40cc-89b8-fa3aebe6c85b")
+		)
+		(instances
+			(project "HelixQueledPrint"
+				(path "/398fd733-417c-46a8-b62a-83839861ebca"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 158.75 151.13 0)
 		(unit 1)
@@ -11949,7 +12199,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "1CustomFootprints:QR4xLED"
 			(at 328.93 29.21 0)
 			(effects
 				(font
@@ -11999,6 +12249,9 @@
 		)
 		(pin "1"
 			(uuid "625f9d70-b5d6-43a5-bdb2-d6252bbfb015")
+		)
+		(pin "9"
+			(uuid "c5a19161-907b-45c5-9d8f-cf7915f389d0")
 		)
 		(instances
 			(project ""
