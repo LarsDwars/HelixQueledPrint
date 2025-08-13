@@ -2785,6 +2785,17 @@
 		)
 		(uuid "7ab6504d-0b4f-44eb-9ea7-3946e7ac8ea8")
 	)
+	(hierarchical_label "VinDC"
+		(shape input)
+		(at 193.04 63.5 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fca230e0-5c4c-431c-b681-3e438c6f1d4f")
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 224.79 71.12 0)
