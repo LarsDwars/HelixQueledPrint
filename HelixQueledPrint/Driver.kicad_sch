@@ -1398,6 +1398,22 @@
 		)
 		(uuid "d9c48f7d-2e5b-444a-905f-1325e49b806b")
 	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 199.39 53.34) (xy 67.31 53.34) (xy 67.31 101.6) (xy 77.47 111.76) (xy 187.96 111.76) (xy 200.66 99.06)
+				(xy 200.66 54.61)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid fd8976ba-aa37-4f49-824b-be11930c6497)
+		)
+	)
 	(symbol
 		(lib_id "Device:L")
 		(at 165.1 82.55 90)
