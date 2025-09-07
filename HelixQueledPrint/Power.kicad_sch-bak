@@ -1688,12 +1688,6 @@
 		(uuid "95f8b042-00e8-4985-a7ce-dd936bfe2450")
 	)
 	(junction
-		(at 180.34 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e79fff3-7522-4d8e-82d0-1cc999723eb3")
-	)
-	(junction
 		(at 114.3 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1762,26 +1756,6 @@
 			(type default)
 		)
 		(uuid "024a666c-6bba-43e3-ab19-5f4e587d4b27")
-	)
-	(wire
-		(pts
-			(xy 180.34 77.47) (xy 163.83 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04393e64-9eed-4617-978b-641da5fc5668")
-	)
-	(wire
-		(pts
-			(xy 180.34 63.5) (xy 180.34 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ed12861-b693-470a-bcb9-5606804d18f1")
 	)
 	(wire
 		(pts
@@ -2475,7 +2449,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 63.5) (xy 180.34 63.5)
+			(xy 163.83 63.5) (xy 207.01 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2565,16 +2539,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 74.93) (xy 180.34 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b04be65e-5ccb-4fdc-9065-71842b60c426")
-	)
-	(wire
-		(pts
 			(xy 100.33 161.29) (xy 100.33 163.83)
 		)
 		(stroke
@@ -2622,16 +2586,6 @@
 			(type default)
 		)
 		(uuid "c1b97ca0-fd0f-40a1-b716-4bc7ac9a98d5")
-	)
-	(wire
-		(pts
-			(xy 180.34 63.5) (xy 207.01 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c382ffdb-e391-4173-a5c8-59f34fd8bd66")
 	)
 	(wire
 		(pts
@@ -3875,6 +3829,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 114.3 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59b982d6-ab0e-4d52-8d5d-e96039062dce")
+		(property "Reference" "C602"
+			(at 118.11 68.9609 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "68uF 25V"
+			(at 118.11 71.5009 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.4"
+			(at 115.2652 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 114.3 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CS1E680M-CRE54 "
+			(at 114.3 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f7a2c0a3-c6f2-4480-a954-4b0c8c369995")
+		)
+		(pin "1"
+			(uuid "fef507f1-dfa0-44ca-b20f-4749eeb3aa18")
+		)
+		(instances
+			(project "HelixQueledPrint"
+				(path "/398fd733-417c-46a8-b62a-83839861ebca/e400918e-d25b-4794-9d88-6dea36a81e43"
+					(reference "C602")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 207.01 71.12 0)
 		(unit 1)
@@ -3939,76 +3972,6 @@
 			(project "HelixQueledPrint"
 				(path "/398fd733-417c-46a8-b62a-83839861ebca/e400918e-d25b-4794-9d88-6dea36a81e43"
 					(reference "C607")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 180.34 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "726302d7-5f32-4127-a73c-ca1b2753d3dd")
-		(property "Reference" "C16"
-			(at 184.15 69.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF 25V"
-			(at 184.15 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 181.3052 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 180.34 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 180.34 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "742d4f09-19db-4f19-897a-aaeeff2954ed")
-		)
-		(pin "1"
-			(uuid "15aec69b-0276-44db-855f-fa87219e70c4")
-		)
-		(instances
-			(project "HelixQueledPrint"
-				(path "/398fd733-417c-46a8-b62a-83839861ebca/e400918e-d25b-4794-9d88-6dea36a81e43"
-					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -4086,76 +4049,6 @@
 			(project ""
 				(path "/398fd733-417c-46a8-b62a-83839861ebca/e400918e-d25b-4794-9d88-6dea36a81e43"
 					(reference "J601")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 114.3 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8d15fe1f-6c86-4b0f-bd09-4ef444f13ab1")
-		(property "Reference" "C15"
-			(at 118.11 69.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF 25V"
-			(at 118.11 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 115.2652 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 114.3 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a968cb86-2f7d-4512-8513-e2c90a7f7453")
-		)
-		(pin "1"
-			(uuid "db6c0534-bab9-48cc-be71-fc7df8be8ba6")
-		)
-		(instances
-			(project "HelixQueledPrint"
-				(path "/398fd733-417c-46a8-b62a-83839861ebca/e400918e-d25b-4794-9d88-6dea36a81e43"
-					(reference "C15")
 					(unit 1)
 				)
 			)
