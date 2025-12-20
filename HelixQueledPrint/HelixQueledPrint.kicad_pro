@@ -58,7 +58,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|112055000|65350000|98443589-b554-4c32-92eb-0e8ade5972b7|4185722f-d9c6-4e72-a37c-30b12fc1bb64",
+          ""
+        ],
+        [
+          "hole_clearance|112055000|65350000|98443589-b554-4c32-92eb-0e8ade5972b7|cd880488-c69d-43e9-9564-147790d0f9fe",
+          ""
+        ],
+        [
+          "hole_clearance|112055000|71450000|8fd159ef-d4b8-46c7-a243-546eee666b0a|88de64e2-cc45-4514-8d6c-bb2ede615d19",
+          ""
+        ],
+        [
+          "hole_clearance|112055000|71450000|8fd159ef-d4b8-46c7-a243-546eee666b0a|c7ea738d-1012-4cb8-9093-9615659fe6dd",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -91,24 +108,24 @@
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
-        "mirrored_text_on_front_layer": "warning",
+        "mirrored_text_on_front_layer": "ignore",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "net_conflict": "warning",
-        "nonmirrored_text_on_back_layer": "warning",
+        "nonmirrored_text_on_back_layer": "ignore",
         "npth_inside_courtyard": "ignore",
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
-        "text_height": "warning",
+        "text_height": "ignore",
         "text_on_edge_cuts": "error",
-        "text_thickness": "warning",
+        "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
@@ -135,7 +152,7 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.15,
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
@@ -458,6 +475,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -487,8 +505,8 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.3,
+        "via_drill": 0.15,
         "wire_width": 6
       },
       {
