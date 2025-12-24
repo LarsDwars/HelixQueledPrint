@@ -2,7 +2,7 @@
   "board": {
     "active_layer": 0,
     "active_layer_preset": "",
-    "auto_track_width": true,
+    "auto_track_width": false,
     "hidden_netclasses": [],
     "hidden_nets": [
       "GND"
@@ -61,7 +61,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "HelixQueledPrint.kicad_prl",
+    "filename": "10W-RGBW-Lars-v1.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
