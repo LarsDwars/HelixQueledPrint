@@ -1,0 +1,440 @@
+source	kicad
+variant	default
+ part	L401	2.2u	Inductor_SMD:L_APV_ANR4020	Inductor	0
+  attr	L401	MPN	SMNR4020-2.2UH
+  attr	L401	ALTERNATIVE	
+ part	C609	100nF 25V	Capacitor_SMD:C_0402_1005Metric	Unpolarized capacitor	0
+  attr	C609	MPN	
+  attr	C609	ALTERNATIVE	
+ part	J601	Screw_Terminal_01x02	TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal	Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)	1
+  attr	J601	MPN	MX128-2.54-02P-GN01-Cu-Y-A 
+  attr	J601	ALTERNATIVE	
+ part	R20	N.C.	Resistor_SMD:R_0402_1005Metric	Resistor	0
+  attr	R20	MPN	
+  attr	R20	ALTERNATIVE	
+ part	C614	100nF 25V	Capacitor_SMD:C_0402_1005Metric	Unpolarized capacitor	0
+  attr	C614	MPN	
+  attr	C614	ALTERNATIVE	
+ part	C303	10uF 25V	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	0
+  attr	C303	MPN	
+  attr	C303	ALTERNATIVE	
+ part	C19	100nF 25V	Capacitor_SMD:C_0402_1005Metric	Unpolarized capacitor	0
+  attr	C19	MPN	
+  attr	C19	ALTERNATIVE	
+ part	C612	10uF 25V	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	0
+  attr	C612	MPN	
+  attr	C612	ALTERNATIVE	
+ part	R19	0R	Resistor_SMD:R_0402_1005Metric	Resistor	0
+  attr	R19	MPN	
+  attr	R19	ALTERNATIVE	
+ part	D2	LED_RGBW	1CustomFootprints:QR4xLED		0
+  attr	D2	MPN	
+  attr	D2	ALTERNATIVE	
+ part	C504	100nF 25V	Capacitor_SMD:C_0402_1005Metric	Unpolarized capacitor	0
+  attr	C504	MPN	
+  attr	C504	ALTERNATIVE	
+ part	U101	ESP32-C6FHx	Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.65x3.65mm_ThermalVias		1
+  attr	U101	MPN	
+  attr	U101	ALTERNATIVE	
+ part	C14	C	Capacitor_SMD:C_0402_1005Metric	Unpolarized capacitor	0
+  attr	C14	MPN	
+  attr	C14	ALTERNATIVE	
+ part	C615	100nF 25V	Capacitor_SMD:C_0402_1005Metric	Unpolarized capacitor	0
+  attr	C615	MPN	
+  attr	C615	ALTERNATIVE	
+ part	U302	TPS92201	Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm_ThermalVias		1
+  attr	U302	MPN	
+  attr	U302	ALTERNATIVE	
+ part	R13	68K	Resistor_SMD:R_0402_1005Metric	Resistor	0
+  attr	R13	MPN	
+  attr	R13	ALTERNATIVE	
+ part	TP15	TestPoint	TestPoint:TestPoint_Pad_D1.0mm	test point	0
+  attr	TP15	MPN	
+  attr	TP15	ALTERNATIVE	
+ part	R1	10K	Resistor_SMD:R_0402_1005Metric	Resistor	0
+  attr	R1	MPN	
+  attr	R1	ALTERNATIVE	
+ part	Y1	40MHz	Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering	Four pin crystal, GND on pins 2 and 4	0
+  attr	Y1	MPN	C37635388
+  attr	Y1	ALTERNATIVE	
+ part	TP2	TestPoint	TestPoint:TestPoint_Pad_D1.0mm	test point	0
+  attr	TP2	MPN	
+  attr	TP2	ALTERNATIVE	
+ part	C18	10uF 25V	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	0
+  attr	C18	MPN	
+  attr	C18	ALTERNATIVE	
+ part	U601	MB34F	1CustomFootprints:MFB	Full bridge rectifier 200V 3A	0
+  attr	U601	MPN	MB34F
+  attr	U601	ALTERNATIVE	
+ part	U402	TPS92201	Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm_ThermalVias		1
+  attr	U402	MPN	
+  attr	U402	ALTERNATIVE	
+ part	R15	68K	Resistor_SMD:R_0402_1005Metric	Resistor	0
+  attr	R15	MPN	
+  attr	R15	ALTERNATIVE	
+ part	L501	2.2u	Inductor_SMD:L_APV_ANR4020	Inductor	0
+  attr	L501	MPN	SMNR4020-2.2UH
+  attr	L501	ALTERNATIVE	
+ part	L301	2.2u	Inductor_SMD:L_APV_ANR4020	Inductor	0
+  attr	L301	MPN	SMNR4020-2.2UH
+  attr	L301	ALTERNATIVE	
+ part	C204	100nF 25V	Capacitor_SMD:C_0402_1005Metric	Unpolarized capacitor	0
+  attr	C204	MPN	
+  attr	C204	ALTERNATIVE	
+ part	C201	10uF 25V	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	0
+  attr	C201	MPN	
+  attr	C201	ALTERNATIVE	
+ part	TP19	TestPoint	TestPoint:TestPoint_Pad_D1.0mm	test point	0
+  attr	TP19	MPN	
+  attr	TP19	ALTERNATIVE	
+ part	C601	68uF 25V	Capacitor_SMD:CP_Elec_6.3x5.4	Polarized capacitor	0
+  attr	C601	MPN	CS1E680M-CRE54 
+  attr	C601	ALTERNATIVE	
+ part	R12	68K	Resistor_SMD:R_0402_1005Metric	Resistor	0
+  attr	R12	MPN	
+  attr	R12	ALTERNATIVE	
+ part	TP8	TestPoint	TestPoint:TestPoint_Pad_D1.0mm	test point	0
+  attr	TP8	MPN	
+  attr	TP8	ALTERNATIVE	
+ part	R9	10K	Resistor_SMD:R_0402_1005Metric	Resistor	0
+  attr	R9	MPN	
+  attr	R9	ALTERNATIVE	
+ part	C15	10uF 25V	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	0
+  attr	C15	MPN	
+  attr	C15	ALTERNATIVE	
+ part	R5	1K2	Resistor_SMD:R_0402_1005Metric	Resistor	0
+  attr	R5	MPN	
+  attr	R5	ALTERNATIVE	
+ part	TP5	TestPoint	TestPoint:TestPoint_Pad_D1.0mm	test point	0
+  attr	TP5	MPN	
+  attr	TP5	ALTERNATIVE	
+ part	C13	C	Capacitor_SMD:C_0402_1005Metric	Unpolarized capacitor	0
+  attr	C13	MPN	
+  attr	C13	ALTERNATIVE	
+ part	C402	10uF 25V	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	0
+  attr	C402	MPN	
+  attr	C402	ALTERNATIVE	
+ part	AE101	Antenna_Shield	RF_Antenna:Texas_SWRA117D_2.4GHz_Right	Antenna with extra pin for shielding	1
+  attr	AE101	MPN	
+  attr	AE101	ALTERNATIVE	
+ part	C11	10uF 25V	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	0
+  attr	C11	MPN	
+  attr	C11	ALTERNATIVE	
+ part	L201	2.2u	Inductor_SMD:L_APV_ANR4020	Inductor	0
+  attr	L201	MPN	SMNR4020-2.2UH
+  attr	L201	ALTERNATIVE	
+ part	R201	100m	Resistor_SMD:R_0402_1005Metric	Resistor	0
+  attr	R201	MPN	
+  attr	R201	ALTERNATIVE	
+ part	FID2	Fiducial	VE_misc:FIDUCIAL_Diameter_1mm	Fiducial Marker	0
+  attr	FID2	MPN	
+  attr	FID2	ALTERNATIVE	
+ part	FID4	Fiducial	VE_misc:FIDUCIAL_Diameter_1mm	Fiducial Marker	0
+  attr	FID4	MPN	
+  attr	FID4	ALTERNATIVE	
+ part	R402	10K	Resistor_SMD:R_0402_1005Metric	Resistor	0
+  attr	R402	MPN	
+  attr	R402	ALTERNATIVE	
+ part	C404	100nF 25V	Capacitor_SMD:C_0402_1005Metric	Unpolarized capacitor	0
+  attr	C404	MPN	
+  attr	C404	ALTERNATIVE	
+ part	U202	TPS92201	Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm_ThermalVias		1
+  attr	U202	MPN	
+  attr	U202	ALTERNATIVE	
+ part	TP20	TestPoint	TestPoint:TestPoint_Pad_D1.0mm	test point	0
+  attr	TP20	MPN	
+  attr	TP20	ALTERNATIVE	
+ part	C102	C	Capacitor_SMD:C_0402_1005Metric	Unpolarized capacitor	0
+  attr	C102	MPN	
+  attr	C102	ALTERNATIVE	
+ part	R202	10K	Resistor_SMD:R_0402_1005Metric	Resistor	0
+  attr	R202	MPN	
+  attr	R202	ALTERNATIVE	
+ part	TP21	TestPoint	TestPoint:TestPoint_Pad_D1.0mm	test point	0
+  attr	TP21	MPN	
+  attr	TP21	ALTERNATIVE	
+ part	L601	1.2uH	Inductor_SMD:L_APV_ANR4012	Inductor	0
+  attr	L601	MPN	FTC404020S1R2MBCA
+  attr	L601	ALTERNATIVE	
+ part	C607	10uF 25V	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	0
+  attr	C607	MPN	
+  attr	C607	ALTERNATIVE	
+ part	C12	100nF 25V	Capacitor_SMD:C_0402_1005Metric	Unpolarized capacitor	0
+  attr	C12	MPN	
+  attr	C12	ALTERNATIVE	
+ part	C203	10uF 25V	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	0
+  attr	C203	MPN	
+  attr	C203	ALTERNATIVE	
+ part	U603	XBL1117	Package_TO_SOT_SMD:SOT-223		0
+  attr	U603	MPN	XBLW XBL1117-3.3
+  attr	U603	ALTERNATIVE	
+ part	C613	100nF 25V	Capacitor_SMD:C_0402_1005Metric	Unpolarized capacitor	0
+  attr	C613	MPN	
+  attr	C613	ALTERNATIVE	
+ part	R11	10K	Resistor_SMD:R_0402_1005Metric	Resistor	0
+  attr	R11	MPN	
+  attr	R11	ALTERNATIVE	
+ part	C610	10uF 25V	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	0
+  attr	C610	MPN	
+  attr	C610	ALTERNATIVE	
+ part	R7	10K	Resistor_SMD:R_0402_1005Metric	Resistor	0
+  attr	R7	MPN	
+  attr	R7	ALTERNATIVE	
+ part	C604	100nF 25V	Capacitor_SMD:C_0402_1005Metric	Unpolarized capacitor	0
+  attr	C604	MPN	
+  attr	C604	ALTERNATIVE	
+ part	R601	68K	Resistor_SMD:R_0402_1005Metric	Resistor	0
+  attr	R601	MPN	
+  attr	R601	ALTERNATIVE	
+ part	C611	68uF 25V	Capacitor_SMD:CP_Elec_6.3x5.4	Polarized capacitor	0
+  attr	C611	MPN	CS1E680M-CRE54 
+  attr	C611	ALTERNATIVE	
+ part	R401	100m	Resistor_SMD:R_0402_1005Metric	Resistor	0
+  attr	R401	MPN	
+  attr	R401	ALTERNATIVE	
+ part	C2	18pF 50V	Capacitor_SMD:C_0402_1005Metric	Unpolarized capacitor	0
+  attr	C2	MPN	
+  attr	C2	ALTERNATIVE	
+ part	R14	10K	Resistor_SMD:R_0402_1005Metric	Resistor	0
+  attr	R14	MPN	
+  attr	R14	ALTERNATIVE	
+ part	R6	10K	Resistor_SMD:R_0402_1005Metric	Resistor	0
+  attr	R6	MPN	
+  attr	R6	ALTERNATIVE	
+ part	C304	100nF 25V	Capacitor_SMD:C_0402_1005Metric	Unpolarized capacitor	0
+  attr	C304	MPN	
+  attr	C304	ALTERNATIVE	
+ part	J101	Conn_Coaxial	Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical	coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)	0
+  attr	J101	MPN	RF1-2626-125CE-CT
+  attr	J101	ALTERNATIVE	
+ part	C17	100nF 25V	Capacitor_SMD:C_0402_1005Metric	Unpolarized capacitor	0
+  attr	C17	MPN	
+  attr	C17	ALTERNATIVE	
+ part	C5	100nF 25V	Capacitor_SMD:C_0402_1005Metric	Unpolarized capacitor	0
+  attr	C5	MPN	
+  attr	C5	ALTERNATIVE	
+ part	TP11	TestPoint	TestPoint:TestPoint_Pad_D1.0mm	test point	0
+  attr	TP11	MPN	
+  attr	TP11	ALTERNATIVE	
+ part	TP14	TestPoint	TestPoint:TestPoint_Pad_D1.0mm	test point	0
+  attr	TP14	MPN	
+  attr	TP14	ALTERNATIVE	
+ part	R502	10K	Resistor_SMD:R_0402_1005Metric	Resistor	0
+  attr	R502	MPN	
+  attr	R502	ALTERNATIVE	
+ part	C617	10uF 25V	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	0
+  attr	C617	MPN	
+  attr	C617	ALTERNATIVE	
+ part	R16	10K	Resistor_SMD:R_0402_1005Metric	Resistor	0
+  attr	R16	MPN	
+  attr	R16	ALTERNATIVE	
+ part	C603	10uF 25V	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	0
+  attr	C603	MPN	
+  attr	C603	ALTERNATIVE	
+ part	SW2	SW_SPST	1CustomFootprints:TS1101A26025	Single Pole Single Throw (SPST) switch	0
+  attr	SW2	MPN	GT-TC034A-H025-L1NB
+  attr	SW2	ALTERNATIVE	
+ part	TP16	TestPoint	TestPoint:TestPoint_Pad_D1.0mm	test point	0
+  attr	TP16	MPN	
+  attr	TP16	ALTERNATIVE	
+ part	R301	100m	Resistor_SMD:R_0402_1005Metric	Resistor	0
+  attr	R301	MPN	
+  attr	R301	ALTERNATIVE	
+ part	TP1	TestPoint	TestPoint:TestPoint_Pad_D1.0mm	test point	0
+  attr	TP1	MPN	
+  attr	TP1	ALTERNATIVE	
+ part	C6	100nF 25V	Capacitor_SMD:C_0402_1005Metric	Unpolarized capacitor	0
+  attr	C6	MPN	
+  attr	C6	ALTERNATIVE	
+ part	TP18	TestPoint	TestPoint:TestPoint_Pad_D1.0mm	test point	0
+  attr	TP18	MPN	
+  attr	TP18	ALTERNATIVE	
+ part	R602	8.2K	Resistor_SMD:R_0402_1005Metric	Resistor	0
+  attr	R602	MPN	
+  attr	R602	ALTERNATIVE	
+ part	C202	10uF 25V	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	0
+  attr	C202	MPN	
+  attr	C202	ALTERNATIVE	
+ part	C606	100nF 25V	Capacitor_SMD:C_0402_1005Metric	Unpolarized capacitor	0
+  attr	C606	MPN	
+  attr	C606	ALTERNATIVE	
+ part	C7	100nF 25V	Capacitor_SMD:C_0402_1005Metric	Unpolarized capacitor	0
+  attr	C7	MPN	
+  attr	C7	ALTERNATIVE	
+ part	SW1	SW_SPST	1CustomFootprints:TS1101A26025	Single Pole Single Throw (SPST) switch	0
+  attr	SW1	MPN	GT-TC034A-H025-L1NB
+  attr	SW1	ALTERNATIVE	
+ part	C401	10uF 25V	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	0
+  attr	C401	MPN	
+  attr	C401	ALTERNATIVE	
+ part	C608	100nF 25V	Capacitor_SMD:C_0402_1005Metric	Unpolarized capacitor	0
+  attr	C608	MPN	
+  attr	C608	ALTERNATIVE	
+ part	C403	10uF 25V	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	0
+  attr	C403	MPN	
+  attr	C403	ALTERNATIVE	
+ part	TP4	TestPoint	TestPoint:TestPoint_Pad_D1.0mm	test point	0
+  attr	TP4	MPN	
+  attr	TP4	ALTERNATIVE	
+ part	R302	10K	Resistor_SMD:R_0402_1005Metric	Resistor	0
+  attr	R302	MPN	
+  attr	R302	ALTERNATIVE	
+ part	TP12	TestPoint	TestPoint:TestPoint_Pad_D1.0mm	test point	0
+  attr	TP12	MPN	
+  attr	TP12	ALTERNATIVE	
+ part	C302	10uF 25V	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	0
+  attr	C302	MPN	
+  attr	C302	ALTERNATIVE	
+ part	R18	0R	Resistor_SMD:R_0402_1005Metric	Resistor	0
+  attr	R18	MPN	
+  attr	R18	ALTERNATIVE	
+ part	U1	CH224D	Package_DFN_QFN:QFN-20-1EP_3x3mm_P0.4mm_EP1.65x1.65mm_ThermalVias		1
+  attr	U1	MPN	
+  attr	U1	ALTERNATIVE	
+ part	TP7	TestPoint	TestPoint:TestPoint_Pad_D1.0mm	test point	0
+  attr	TP7	MPN	
+  attr	TP7	ALTERNATIVE	
+ part	C503	10uF 25V	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	0
+  attr	C503	MPN	
+  attr	C503	ALTERNATIVE	
+ part	C101	C	Capacitor_SMD:C_0402_1005Metric	Unpolarized capacitor	0
+  attr	C101	MPN	
+  attr	C101	ALTERNATIVE	
+ part	R10	10K	Resistor_SMD:R_0402_1005Metric	Resistor	0
+  attr	R10	MPN	
+  attr	R10	ALTERNATIVE	
+ part	C103	C	Capacitor_SMD:C_0402_1005Metric	Unpolarized capacitor	0
+  attr	C103	MPN	
+  attr	C103	ALTERNATIVE	
+ part	C501	10uF 25V	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	0
+  attr	C501	MPN	
+  attr	C501	ALTERNATIVE	
+ part	TP17	TestPoint	TestPoint:TestPoint_Pad_D1.0mm	test point	0
+  attr	TP17	MPN	
+  attr	TP17	ALTERNATIVE	
+ part	C605	100nF 25V	Capacitor_SMD:C_0402_1005Metric	Unpolarized capacitor	0
+  attr	C605	MPN	
+  attr	C605	ALTERNATIVE	
+ part	FID1	Fiducial	VE_misc:FIDUCIAL_Diameter_1mm	Fiducial Marker	0
+  attr	FID1	MPN	
+  attr	FID1	ALTERNATIVE	
+ part	TP6	TestPoint	TestPoint:TestPoint_Pad_D1.0mm	test point	0
+  attr	TP6	MPN	
+  attr	TP6	ALTERNATIVE	
+ part	C16	10uF 25V	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	0
+  attr	C16	MPN	
+  attr	C16	ALTERNATIVE	
+ part	C1	18pF 50V	Capacitor_SMD:C_0402_1005Metric	Unpolarized capacitor	0
+  attr	C1	MPN	
+  attr	C1	ALTERNATIVE	
+ part	TP10	TestPoint	TestPoint:TestPoint_Pad_D1.0mm	test point	0
+  attr	TP10	MPN	
+  attr	TP10	ALTERNATIVE	
+ part	R2	10K	Resistor_SMD:R_0402_1005Metric	Resistor	0
+  attr	R2	MPN	
+  attr	R2	ALTERNATIVE	
+ part	C502	10uF 25V	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	0
+  attr	C502	MPN	
+  attr	C502	ALTERNATIVE	
+ part	FID3	Fiducial	VE_misc:FIDUCIAL_Diameter_1mm	Fiducial Marker	0
+  attr	FID3	MPN	
+  attr	FID3	ALTERNATIVE	
+ part	C9	10uF 25V	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	0
+  attr	C9	MPN	
+  attr	C9	ALTERNATIVE	
+ part	R4	10K	Resistor_SMD:R_0402_1005Metric	Resistor	0
+  attr	R4	MPN	
+  attr	R4	ALTERNATIVE	
+ part	TP9	TestPoint	TestPoint:TestPoint_Pad_D1.0mm	test point	0
+  attr	TP9	MPN	
+  attr	TP9	ALTERNATIVE	
+ part	C8	100nF 25V	Capacitor_SMD:C_0402_1005Metric	Unpolarized capacitor	0
+  attr	C8	MPN	
+  attr	C8	ALTERNATIVE	
+ part	R501	100m	Resistor_SMD:R_0402_1005Metric	Resistor	0
+  attr	R501	MPN	
+  attr	R501	ALTERNATIVE	
+ part	U502	TPS92201	Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm_ThermalVias		1
+  attr	U502	MPN	
+  attr	U502	ALTERNATIVE	
+ part	C616	10uF 25V	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	0
+  attr	C616	MPN	
+  attr	C616	ALTERNATIVE	
+ part	TP13	TestPoint	TestPoint:TestPoint_Pad_D1.0mm	test point	0
+  attr	TP13	MPN	
+  attr	TP13	ALTERNATIVE	
+ part	C10	10uF 25V	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	0
+  attr	C10	MPN	
+  attr	C10	ALTERNATIVE	
+ part	C301	10uF 25V	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	0
+  attr	C301	MPN	
+  attr	C301	ALTERNATIVE	
+ part	TP3	TestPoint	TestPoint:TestPoint_Pad_D1.0mm	test point	0
+  attr	TP3	MPN	
+  attr	TP3	ALTERNATIVE	
+ part	U602	SY8366H	1CustomFootprints:QFN3X3-12_SGY		0
+  attr	U602	MPN	
+  attr	U602	ALTERNATIVE	
+ part	C4	100nF 25V	Capacitor_SMD:C_0402_1005Metric	Unpolarized capacitor	0
+  attr	C4	MPN	
+  attr	C4	ALTERNATIVE	
+ part	R8	10K	Resistor_SMD:R_0402_1005Metric	Resistor	0
+  attr	R8	MPN	
+  attr	R8	ALTERNATIVE	
+ part	L1	L	Inductor_SMD:L_0402_1005Metric	Inductor	0
+  attr	L1	MPN	
+  attr	L1	ALTERNATIVE	
+ part	J1	USB_C_Receptacle_USB2.0_16P	Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal	USB 2.0-only 16P Type-C Receptacle connector	1
+  attr	J1	MPN	
+  attr	J1	ALTERNATIVE	
+ part	R3	10K	Resistor_SMD:R_0402_1005Metric	Resistor	0
+  attr	R3	MPN	
+  attr	R3	ALTERNATIVE	
+ part	C20	10uF 25V	Capacitor_SMD:C_0805_2012Metric	Unpolarized capacitor	0
+  attr	C20	MPN	
+  attr	C20	ALTERNATIVE	
+ part	C3	100nF 25V	Capacitor_SMD:C_0402_1005Metric	Unpolarized capacitor	0
+  attr	C3	MPN	
+  attr	C3	ALTERNATIVE	
+ part	D1	SS34	VE_diodes:SMA	Diode	0
+  attr	D1	MPN	SS34
+  attr	D1	ALTERNATIVE	
+net-name	USB_D+
+net-name	GPIO9
+net-name	ADC1_CH2
+net-name	ESP_CHIP_PU
+net-name	USB_D-
+net-name	GPIO9
+net-name	USB_D-
+net-name	GPIO15
+net-name	ENB
+net-name	Vbus
+net-name	PWMG
+net-name	ADC1_CH0
+net-name	PWMW
+net-name	ENG
+net-name	ENW
+net-name	ADC1_CH1
+net-name	ENW
+net-name	ENB
+net-name	USB_D-
+net-name	PWMB
+net-name	GPIO8
+net-name	PWMB
+net-name	PWMR
+net-name	USB_D+
+net-name	ENR
+net-name	GPIO8
+net-name	ADC1_CH1
+net-name	ENG
+net-name	ESP_CHIP_PU
+net-name	PWMW
+net-name	USB_D-
+net-name	ENR
+net-name	USB_D+
+net-name	PWMG
+net-name	ADC1_CH2
+net-name	USB_D+
+net-name	ADC1_CH0
+net-name	PWMR
+net-name	Vbus

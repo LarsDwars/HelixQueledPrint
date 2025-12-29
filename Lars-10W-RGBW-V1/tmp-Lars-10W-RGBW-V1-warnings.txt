@@ -1,0 +1,63 @@
+Schematic doesn't include a PCB specification!
+Board doesn't seem to include a serial number datamatrix!
+R18, R19:
+  Uses a PCB footprint from a non-VE_ footprint library (current value is '0R' in 'R0402')
+L601:
+  Uses a PCB footprint from a non-VE_ footprint library (current value is '1.2uH' in 'L_APV_ANR4012')
+R301, R401, R501, R201:
+  Uses a PCB footprint from a non-VE_ footprint library (current value is '100m' in 'R0402')
+C404, C5, C504, C4, C609, C204, C12, C19, C3, C606, C614, C605, C608, C6, C304, C613, C7, C8, C604, C17, C615:
+  Uses a PCB footprint from a non-VE_ footprint library (current value is '100nF 25V' in 'C0402')
+R7, R8, R302, R3, R6, R4, R402, R1, R11, R16, R502, R14, R10, R202, R2, R9:
+  Uses a PCB footprint from a non-VE_ footprint library (current value is '10K' in 'R0402')
+C203, C501, C502, C16, C201, C503, C9, C10, C202, C402, C401, C20, C11, C403, C603, C301, C15, C617, C302, C303, C18, C610, C607, C616, C612:
+  Uses a PCB footprint from a non-VE_ footprint library (current value is '10uF 25V' in 'C0805')
+C2, C1:
+  Uses a PCB footprint from a non-VE_ footprint library (current value is '18pF 50V' in 'C0402')
+R5:
+  Uses a PCB footprint from a non-VE_ footprint library (current value is '1K2' in 'R0402')
+L301, L501, L201, L401:
+  Uses a PCB footprint from a non-VE_ footprint library (current value is '2.2u' in 'L_APV_ANR4020')
+Y1:
+  Uses a PCB footprint from a non-VE_ footprint library (current value is '40MHz' in 'Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering')
+R15, R601, R13, R12:
+  Uses a PCB footprint from a non-VE_ footprint library (current value is '68K' in 'R0402')
+C601, C611:
+  Uses a PCB footprint from a non-VE_ footprint library (current value is '68uF 25V' in 'CP_Elec_6.3x5.4')
+AE101:
+  Uses a PCB footprint from a non-VE_ footprint library (current value is 'Antenna_Shield' in 'Texas_SWRA117D_2.4GHz_Right')
+C14, C101, C102, C103, C13:
+  Uses a PCB footprint from a non-VE_ footprint library (current value is 'C' in 'C0402')
+U1:
+  Uses a PCB footprint from a non-VE_ footprint library (current value is 'CH224D' in 'QFN-20-1EP_3x3mm_P0.4mm_EP1.65x1.65mm_ThermalVias')
+J101:
+  Uses a PCB footprint from a non-VE_ footprint library (current value is 'Conn_Coaxial' in 'U.FL_Hirose_U.FL-R-SMT-1_Vertical')
+U101:
+  Uses a PCB footprint from a non-VE_ footprint library (current value is 'ESP32-C6FHx' in 'QFN-32-1EP_5x5mm_P0.5mm_EP3.65x3.65mm_ThermalVias')
+L1:
+  Uses a PCB footprint from a non-VE_ footprint library (current value is 'L' in 'L0402')
+D2:
+  Uses a PCB footprint from a non-VE_ footprint library (current value is 'LED_RGBW' in 'QR4xLED')
+U601:
+  Uses a PCB footprint from a non-VE_ footprint library (current value is 'MB34F' in 'MFB')
+R20:
+  Uses a PCB footprint from a non-VE_ footprint library (current value is 'NC' in 'R0402')
+SW1, SW2:
+  Uses a PCB footprint from a non-VE_ footprint library (current value is 'SW_SPST' in 'TS1101A26025')
+U602:
+  Uses a PCB footprint from a non-VE_ footprint library (current value is 'SY8366H' in 'QFN3X3-12_SGY')
+J601:
+  Uses a PCB footprint from a non-VE_ footprint library (current value is 'Screw_Terminal_01x02' in 'TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal')
+U302, U402, U502, U202:
+  Uses a PCB footprint from a non-VE_ footprint library (current value is 'TPS92201' in 'WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm_ThermalVias')
+TP14, TP2, TP17, TP9, TP1, TP15, TP18, TP11, TP21, TP12, TP6, TP4, TP13, TP20, TP16, TP10, TP8, TP19, TP7, TP5, TP3:
+  Uses a PCB footprint from a non-VE_ footprint library (current value is 'TestPoint' in 'TestPoint_Pad_D1.0mm')
+J1:
+  Uses a PCB footprint from a non-VE_ footprint library (current value is 'USB_C_Receptacle_USB2.0_16P' in 'USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal')
+U603:
+  Uses a PCB footprint from a non-VE_ footprint library (current value is 'XBL1117' in 'SOT-223')
+R602:
+  Uses a PCB footprint from a non-VE_ footprint library Resistor value is set to unwanted '8.2K' instead of '8K2'. (current value is '8.2K' in 'R0402')
+
+R7, C203, C501, L301, TP14, R18, C502, C404, C16, C5, R8, C14, L601, C201, TP2, C503, C2, TP17, C9, TP9, TP1, C10, C202, TP15, TP18, U603, C101, TP11, C402, R301, J601, C504, C4, TP21, R302, C401, TP12, C20, C102, R15, TP6, R3, C1, U302, C609, R601, C204, TP4, C12, SW1, TP13, C103, U601, TP20, R13, C19, R602, TP16, TP10, C11, C403, R6, SW2, U602, D2, TP8, U101, C603, R4, U402, TP19, L501, C301, R402, C15, R1, C3, C617, R20, R401, C302, U1, C606, TP7, L201, R12, C614, C303, C13, C605, C608, C601, J101, J1, R11, C6, R19, C304, Y1, C613, C18, C7, R501, L1, C8, U502, R16, TP5, C610, R5, C607, C616, L401, R502, C604, R201, TP3, C17, C611, R14, C615, R10, R202, U202, R2, C612, R9, AE101:
+  Still uses non-VE_ libraries for some of its PCB footprints! DO NOT use this schematic/board to generate production data before migrating all parts to a VE_ footprint library in the Kicad git repo!!!!!
