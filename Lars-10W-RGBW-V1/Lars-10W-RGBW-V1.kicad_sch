@@ -15052,7 +15052,7 @@
 			)
 		)
 		(instances
-			(project "HelixQueledPrint"
+			(project "Lars-10W-RGBW-V1"
 				(path "/398fd733-417c-46a8-b62a-83839861ebca"
 					(page "2")
 				)
@@ -15144,7 +15144,7 @@
 			)
 		)
 		(instances
-			(project "HelixQueledPrint"
+			(project "Lars-10W-RGBW-V1"
 				(path "/398fd733-417c-46a8-b62a-83839861ebca"
 					(page "4")
 				)
@@ -15236,7 +15236,7 @@
 			)
 		)
 		(instances
-			(project "HelixQueledPrint"
+			(project "Lars-10W-RGBW-V1"
 				(path "/398fd733-417c-46a8-b62a-83839861ebca"
 					(page "5")
 				)
@@ -15308,7 +15308,7 @@
 			)
 		)
 		(instances
-			(project "HelixQueledPrint"
+			(project "Lars-10W-RGBW-V1"
 				(path "/398fd733-417c-46a8-b62a-83839861ebca"
 					(page "6")
 				)
@@ -15400,7 +15400,7 @@
 			)
 		)
 		(instances
-			(project "HelixQueledPrint"
+			(project "Lars-10W-RGBW-V1"
 				(path "/398fd733-417c-46a8-b62a-83839861ebca"
 					(page "3")
 				)
